@@ -1,0 +1,87 @@
+        .features{
+            background-color: rgb(27, 26, 26);
+            color:white;
+            font-size: 30px;
+            width:100%;
+        }
+
+        .features a{
+            font-size: 20px;
+            font-family: 'Rocoleta Web';
+            color:white;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+
+        .title{
+            font-size: 60px;
+            margin-left:20px;
+            margin-right: 0;
+            margin-top: 0;
+            margin-bottom: 8px;
+            text-align: left;
+            font-family: 'Rocoleta Web';
+        }
+
+        .body{
+            margin: 10px;
+            color:white;
+            font-family: 'Rocoleta Web';
+            margin:10px;
+        }
+
+        .log_in{
+            text-align: right;
+            font-size: 10px;
+        }
+
+        .log,.sign{
+            background: white;
+            margin-right: 0px;
+            font-size: 15px;
+            color:black;
+            border:none;
+            border-radius: 12px;
+            padding-left:20px;
+            padding-right:20px;
+            padding-top:10px;
+            padding-bottom:10px;
+
+        }
+
+        button:hover{
+            background: rgb(193, 189, 189);
+            text-decoration:underline;
+        }
+
+        .blog{
+            background: white;
+            margin-bottom: 10px;
+            color:black;
+            border:none;
+            border-radius: 12px;
+            height:50px;
+            width:120px;
+            font-size: 20px;
+        }
+
+        .video{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        video{
+            width: 90%;
+            height: auto;
+            display: block;
+            border: 15px solid rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+        }
+
+
+        *{
+            margin: 0;
+            padding: 0;
+        }

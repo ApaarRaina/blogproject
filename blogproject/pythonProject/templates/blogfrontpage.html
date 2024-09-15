@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blogs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/blog.css">
+</head>
+<body>
+    <div class="features">
+        <a href="http://127.0.0.1:5000//home">Home</a>
+        <a href="http://127.0.0.1:5000//home">Features</a>
+        <a href="http://127.0.0.1:5000//home">Products</a>
+        <a href="http://127.0.0.1:5000//home">Resourses</a>
+        <a href="http://127.0.0.1:5000//home">Plans and Pricing</a>
+
+        <div class="log_in">
+            {% if visited==False %}
+                <a href="http://127.0.0.1:5000//login"><button class="log">Log In</button></a>
+                <a href="http://127.0.0.1:5000//signup"><button class="sign">Sign Up</button></a>
+            {% else %}
+                <a href="http://127.0.0.1:5000//logout" ><button class="log">Log Out</button></a>
+            {% endif %}
+        </div>
+
+        <br><br><br><br><br>
+        <div class="title">
+            <strong>Blog with the best.</strong>
+        </div>
+
+
+        <div class="body">
+            More bloggers and independent creators choose WordPress than any other blogging
+            <br>
+            tool. Tap into intuitive, flexible tools that put writers, bloggers, and creators first.
+            <br><br>
+        </div>
+
+        <div class="start">
+            {% if visited==0 %}
+               <a href="http://127.0.0.1:5000//signup">
+                   <button class="blog">Start</button>
+                   <br>
+               </a>
+            {%else%}
+               <a href="http://127.0.0.1:5000//home">
+                   <button class="blog">Start</button>
+                   <br>
+               </a>
+            {%endif%}
+
+
+            <br><br><br>
+        </div>
+
+        <div class="video">
+            <video src="https://wpcom.files.wordpress.com/2024/07/lohp-editor-video-500kbps.mp4" autoplay="" loop="" muted="" playsinline="" preload="metadata" width="1860" height="1051"></video>
+        </div>
+
+    </div>
+
+</body>
+</html>
